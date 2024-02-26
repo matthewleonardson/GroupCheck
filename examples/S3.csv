@@ -1,0 +1,7 @@
+,e,p,q,r,s,t
+e,e,p,q,r,s,t
+p,p,q,e,s,t,r
+q,q,e,p,t,r,s
+r,r,t,s,e,q,p
+s,s,r,t,p,e,q
+t,t,s,r,q,p,e
