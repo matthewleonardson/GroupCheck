@@ -1,13 +1,6 @@
 # Group Check
 GroupCheck is an experimental C++ project intended to parse [Cayley tables](https://en.wikipedia.org/wiki/Cayley_table) and return useful information, primarily whether or not it defines a [group](https://en.wikipedia.org/wiki/Group_(mathematics)). It is mainly an educational project to allow exploration into algorithims in [computer algebra](https://en.wikipedia.org/wiki/Computer_algebra) (specifically group theory).
 
-# Usage
-Included in the repository is ```GroupCheck.exe```, which can be used in the command line with a single argument: a filename containing a Cayley table encoded in CSV format (formatting expectations are explained in the Assumptions section).
-
-```.\GroupCheck.exe [filename]```
-
-Usage in a non-Windows environment requires cloning the repository and compiling the project manually.
-
 # Assumptions
 It is assumed that the file passed in is formatted as a CSV. Formatting your Cayley tables in spreadsheet software such as Google sheets makes this very simple. It is also assumed that the row labels and column labels are in identical order. Properly formatted examples are contained in the ```examples``` directory.
 

@@ -109,7 +109,6 @@ bool CayleyTable::hasIdentity() const {
             return true;
         }
 
-
     }
 
     return false;
